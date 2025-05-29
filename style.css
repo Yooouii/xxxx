@@ -1,0 +1,118 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #003399;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: black;
+    }
+
+    nav a.active {
+      border-bottom: 2px solid #e34e0f;
+      padding-bottom: 4px;
+      color: #e34e0f;
+    }
+
+    .post-btn {
+      border: 2px solid #e34e0f;
+      padding: 8px 16px;
+      border-radius: 8px;
+      color: #e34e0f;
+      font-weight: bold;
+      background: transparent;
+    }
+
+    .search-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 40px 10px;
+    }
+
+    .search-bar h2 {
+      font-size: 28px;
+      color: #333;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      font-size: 16px;
+      width: 250px;
+      border-radius: 8px;
+      border: none;
+      margin: 0 10px;
+    }
+
+    .search-bar button {
+      padding: 10px 20px;
+      border-radius: 8px;
+      background-color: #0018ff;
+      color: rgb(254, 249, 249);
+      border: none;
+    }
+
+    .items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px 40px;
+    }
+
+    .item {
+      background: rgb(255, 254, 254);
+      padding: 15px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    }
+
+    .item img {
+      width: 100%;
+      max-height: 120px;
+      object-fit: contain;
+    }
+
+    .item h4 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+    }
+
+    .item .price {
+      color: #ff9900;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .item .stock {
+      font-size: 12px;
+      color: gray;
+    }
+
+    footer {
+      padding: 10px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      font-size: 12px;
+      color: #777;
+      border-top: 1px solid #ccc;
+    }
